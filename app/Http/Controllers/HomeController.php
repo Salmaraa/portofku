@@ -4,35 +4,16 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class PortofController extends Controller
+class HomeController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
-    public function master()
+    public function index()
     {
-        return view('konten');
+        
     }
 
-    public function home()
-    {
-        return view('home');
-    }
-
-    public function about()
-    {
-        return view('about');
-    }
-
-    public function projects()
-    {
-        return view('projects');
-    }
-
-    public function contact()
-    {
-        return view('contact');
-    }
     /**
      * Show the form for creating a new resource.
      */
