@@ -2,7 +2,7 @@
 @section('content')
    <div class="w-50 center border rounded px-3 py-3 mx-auto my-form" style="margin-top: 100px !important;">
     <h1>Login</h1>
-    <form action="/user/login" method="post">
+    <form action="/form/login" method="POST">
         @csrf
         <div class="mb-3">
             <label for="email" class="form-label">Email</label>
