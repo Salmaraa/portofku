@@ -1,6 +1,6 @@
 @extends('master')
 @section('content')
-   <div class="w-50 center border rounded px-3 py-3 mx-auto my-form">
+   <div class="w-50 center border rounded px-3 py-3 mx-auto my-form" style="margin-top: 100px !important;">
     <h1>Login</h1>
     <form action="/user/login" method="post">
         @csrf

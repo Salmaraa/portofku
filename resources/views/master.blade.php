@@ -16,11 +16,14 @@
     
   </head>
 
-  <body>
+  <body style="height:fit-content;">
 
   @include('navbar')
  
-  @yield('content')
+  <div class="container-fluid p-0 ">
+    @yield('content') 
+  </div>
+  
   
   @include('footer')
  
