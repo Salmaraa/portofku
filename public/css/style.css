@@ -27,3 +27,26 @@ body {
 section {
     padding-top: 5rem;
 }
+
+/* File style.css */
+/* Agar form menjadi tengah horizontal */
+.center {
+    margin: 0 auto;
+}
+
+/* Agar form berada di tengah vertikal */
+.min-vh-100 {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Agar footer berada di bawah form */
+footer {
+    text-align: center;
+}
+
+.my-form {
+    margin-top: 400px;
+}

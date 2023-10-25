@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AboutController;
+use App\Http\Controllers\AuthController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\PortofController;
@@ -28,4 +29,5 @@ Route::get('/', function () {
     return view('master');
 });
 
-
+Route::get('/form',[AuthController::class,'index']);
+Route::post('/form/login',[AuthController::class,'login']);
